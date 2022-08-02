@@ -22,7 +22,7 @@ body {
 	background-color: var(--dark);
 }
 
-header {
+header {0
 	padding: 2rem 1rem;
 	max-width: 800px;
 	width: 100%;
