@@ -73,7 +73,16 @@ input, button {
 }
 
 #new-task-submit:hover {
-	opacity: 0.8;
+    all: unset;
+    color: var(--light);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+    background-color: var(--pink);
+    padding: 10px 6px;
+    overflow: hidden;
+    box-shadow: 0 0 1rem var(--pink), 0 0 1.5rem var(--pink), 
+    0 0 2rem var(--pink);
 }
 
 #new-task-submit:active {
